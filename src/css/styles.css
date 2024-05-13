@@ -5,21 +5,51 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  font-family: 'Helvetica', sans-serif;
+}
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+/* TIMER */
+.timer-container {
+  padding: 40px;
+}
+.timer-container button {
+  padding: 0 10px;
+}
+.timer {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  padding-top: 30px;
+}
+.value {
+  display: block;
+  font-size: 30px;
+}
+.label {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+/* Snackbar */
+.form {
+  max-width: 400px;
+  padding: 40px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+}
+.form fieldset label {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-direction: row;
+  padding: 0 10px;
+}
+.form button {
+  width: 100%;
 }
