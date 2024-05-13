@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Snackbar</title>
+    <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-c28c7ff0.css">
+  </head>
+  <body>
+    <form class="form">
+      <label>
+        Delay (ms)
+        <input type="number" name="delayMs" min="0" />
+      </label>
+
+      <fieldset>
+        <legend>State</legend>
+
+        <label>
+          <input type="radio" name="promiseType" value="fulfilled" />
+          Fulfilled
+        </label>
+
+        <label>
+          <input type="radio" name="promiseType" value="rejected" />
+          Rejected
+        </label>
+      </fieldset>
+
+      <button type="submit">Create notice</button>
+    </form>
+
+    
+  </body>
+</html>
